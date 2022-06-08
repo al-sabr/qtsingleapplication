@@ -47,9 +47,7 @@
 
 #include "qtlockedfile.h"
 
-#include <qtsingleapplicationExports.h>
-
-class QTSINGLEAPPLICATION_EXPORT QtLocalPeer : public QObject
+class QtLocalPeer : public QObject
 {
   Q_OBJECT
 
